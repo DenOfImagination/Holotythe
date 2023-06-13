@@ -55,7 +55,7 @@
     <categoryEntry id="76f5-58f8-04aa-1914" name="General" publicationId="5aa0-3e2a-18ff-c868" hidden="false">
       <rules>
         <rule id="ca8c-7a3a-086d-d663" name="General" hidden="false">
-          <description>Here&apos;s a description of special skills and attributtes asigned to General</description>
+          <description>Here&apos;s a description of special skills and attributtes asigned to General units. Honk Honk This is here as a rule that SHOULD be same for all General no matter the faction</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -69,22 +69,22 @@
     <categoryEntry id="cc08-ee1e-0c3d-24d0" name="Elite" hidden="false">
       <rules>
         <rule id="9ed7-d942-c8d2-7277" name="Elite" hidden="false">
-          <description>Here&apos;s a description of special skills and attributtes asigned to Elite units. Honk Honk</description>
+          <description>Here&apos;s a description of special skills and attributtes asigned to Elite units. Honk Honk This is here as a rule that SHOULD be same for all Elite&apos;s no matter the faction</description>
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="807c-d1a0-dd7a-19d6" name="ToRemove" hidden="false"/>
+    <categoryEntry id="807c-d1a0-dd7a-19d6" name="ToRemoveFunkcjaChwilowoNieznana" hidden="false"/>
     <categoryEntry id="cf53-8f98-e5aa-f320" name="Troops" hidden="false">
       <rules>
         <rule id="132d-19d2-c80f-43be" name="Troops" hidden="false">
-          <description>Rules regarding troops. Most basic unit in a faction</description>
+          <description>Here&apos;s a description of special skills and attributtes asigned to troops units. Honk Honk This is here as a rule that SHOULD be same for all troops no matter the faction</description>
         </rule>
       </rules>
     </categoryEntry>
     <categoryEntry id="70ac-247a-953d-1088" name="Specialist" hidden="false">
       <rules>
         <rule id="6ddd-0805-7a3b-0dd6" name="Specialist" hidden="false">
-          <description>Here&apos;s a description of special skills and attributtes asigned to Specialist</description>
+          <description>Here&apos;s a description of special skills and attributtes asigned to Specialist and their role in game in general OR TO BE REMOVED </description>
         </rule>
       </rules>
     </categoryEntry>
@@ -135,37 +135,6 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5422-89e8-b98f-ef78" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="74d9-fa8f-e293-d5ff" name="ToRemove" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false">
-          <modifiers>
-            <modifier type="set" field="d4cd-ebc1-4d6c-a38d" value="0.0">
-              <conditions>
-                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ea3-2427-f146-78c9" type="lessThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="set" field="d4cd-ebc1-4d6c-a38d" value="0.0">
-                  <conditions>
-                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="d4cd-ebc1-4d6c-a38d" value="1.0">
-                  <repeats>
-                    <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions>
-                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cd-ebc1-4d6c-a38d" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="3e4c-1000-928c-c468" name="Troops" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="false">
           <modifiers>
             <modifier type="set" field="6774-165e-4da8-d84e" value="2.0">
@@ -180,10 +149,10 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6774-165e-4da8-d84e" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6774-165e-4da8-d84e" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="44c7-e10e-f367-e83a" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="false">
+        <categoryLink id="44c7-e10e-f367-e83a" name="Specialist" hidden="false" targetId="70ac-247a-953d-1088" primary="false">
           <modifiers>
             <modifier type="set" field="5e8f-eba7-b631-e430" value="4.0">
               <conditions>
