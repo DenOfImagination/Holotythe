@@ -3,150 +3,127 @@
   <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="b1fb-a411-1a6d-1ac6" name="Hive Runner" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0bb-1062-3671-88b0" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="0fff-9240-21aa-8f1e" name="Hive Runner" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="232a-5369-57bb-fd9f" name="Hive Runner Special" hidden="false">
+          <description>Additional info about the rule above</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="c98c-0a59-6fad-0e83" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1e75-3faf-d5e4-b158" name="Hive Runner" hidden="false" collective="false" import="true" type="model">
-          <profiles>
-            <profile id="8819-791e-9457-1fc2" name="Hive Runner" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="1bd7-c539-642e-c9b2" name="Hive Runner Special" hidden="false">
-              <description>Additional info about the rule above</description>
-            </rule>
-          </rules>
-          <categoryLinks>
-            <categoryLink id="04fe-e924-f1be-ad74" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="false"/>
-          </categoryLinks>
-          <entryLinks>
-            <entryLink id="f37c-a1c8-3f57-48c6" name="Runner Pair of Claws" hidden="false" collective="false" import="true" targetId="e6c8-41cc-b9c2-0f75" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="fb5a-d32b-5c90-a9a9" name="Runner Pair of Talons" hidden="false" collective="false" import="true" targetId="d327-fd52-32d7-78da" type="selectionEntry"/>
-            <entryLink id="9f22-5909-5871-6554" name="Runner Tentacle" hidden="false" collective="false" import="true" targetId="9b91-2dc4-03a6-4ad8" type="selectionEntry"/>
-          </entryLinks>
+      <entryLinks>
+        <entryLink id="47ff-2099-4294-b7b4" name="Runner Tentacle" hidden="false" collective="false" import="true" targetId="9b91-2dc4-03a6-4ad8" type="selectionEntry"/>
+        <entryLink id="9cca-0395-bb32-6d0b" name="Runner Pair of Talons" hidden="false" collective="false" import="true" targetId="d327-fd52-32d7-78da" type="selectionEntry"/>
+        <entryLink id="3e49-3f13-717f-30b2" name="Runner Pair of Claws" hidden="false" collective="false" import="true" targetId="e6c8-41cc-b9c2-0f75" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4288-dcbe-3cea-04d3" name=" Abductor" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7992-0f1e-e5cd-1eb5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3078-862d-3b35-1848" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="de0b-a42b-d79e-cc25" name=" Abductor" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8588-4ef0-f298-128e" name="Special Rule Abductor" hidden="false">
+          <description>Here&apos;s a test of an additional rule regarding abductor</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="d339-0d8a-1633-21ba" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5783-8429-5a7c-def8" name=" Abductor" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a0-090d-0f86-3bd1" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a315-8411-02e2-a73f" name=" Abductor" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="f194-67b9-c65e-6006" name="Special Rule Abductor" hidden="false">
-              <description>Here&apos;s a test of an additional rule regarding a unit</description>
-            </rule>
-          </rules>
-          <categoryLinks>
-            <categoryLink id="9e26-664f-588b-c403" name="Specialist" hidden="false" targetId="70ac-247a-953d-1088" primary="false"/>
-          </categoryLinks>
-          <entryLinks>
-            <entryLink id="4a44-8cdd-c65a-ac7b" name="Abductor Pair of Talons" hidden="false" collective="false" import="true" targetId="c8c3-5811-b547-3bf8" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="e055-72cd-3fc8-20c7" name="Pair of Mantis Claws" hidden="false" collective="false" import="true" targetId="9688-4c17-4679-0f68" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+      <entryLinks>
+        <entryLink id="aff6-c446-5455-a6f2" name="Pair of Mantis Claws" hidden="false" collective="false" import="true" targetId="9688-4c17-4679-0f68" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+        <entryLink id="20bb-3eb9-82a7-ac56" name="Abductor Pair of Talons" hidden="false" collective="false" import="true" targetId="c8c3-5811-b547-3bf8" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfcb-745d-fb84-e4c4" name="Ultrafex" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a79-4632-355a-577a" type="min"/>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a49b-34b5-f9fb-4913" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="302c-01f1-13f1-d9b1" name="Ultrafex" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">7</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="24b8-e491-0272-56e3" name="Machinery/Beast" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="05ac-6cec-7b69-86b4" name="Ultrafex" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4889-ba31-952c-e101" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef59-6216-ec4a-86b0" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="9533-088e-6cee-74e3" name="Ultrafex" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">7</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="60e0-d937-ade1-8340" name="Machinery/Beast" hidden="false" targetId="970f-1486-f74e-91e9" primary="false"/>
-          </categoryLinks>
-          <entryLinks>
-            <entryLink id="c65e-e8f1-57cc-8a35" name="Raming Head" hidden="false" collective="false" import="true" targetId="aa9d-cd2c-4424-f60a" type="selectionEntry"/>
-            <entryLink id="9067-72e1-6fd1-fd4a" name="Ultrafex Pair of Claws" hidden="false" collective="false" import="true" targetId="a422-e40b-5cef-2b01" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="1e20-ba3e-78f7-751c" name="Ultrafex Pair of Scyths" hidden="false" collective="false" import="true" targetId="f79d-495e-6465-4eef" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+      <entryLinks>
+        <entryLink id="423a-e995-b111-f274" name="Ultrafex Pair of Scyths" hidden="false" collective="false" import="true" targetId="f79d-495e-6465-4eef" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+        <entryLink id="ab5a-7673-38f0-15dd" name="Ultrafex Pair of Claws" hidden="false" collective="false" import="true" targetId="a422-e40b-5cef-2b01" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4d79-cf62-c948-584a" name="Raming Head" hidden="false" collective="false" import="true" targetId="aa9d-cd2c-4424-f60a" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3af6-e7a9-f29d-e67a" name=" Sky Invader" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2246-0df7-0f01-579c" type="max"/>
+      </constraints>
       <profiles>
         <profile id="2834-6e1d-2ec2-946b" name=" Sky Invader" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
           <characteristics>
@@ -175,6 +152,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9e01-5864-1c90-308d" name="Great Invader" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9393-ac6b-bba7-5b2e" type="min"/>
+      </constraints>
       <profiles>
         <profile id="7fd1-4cd9-4ee6-c307" name="Great Invader" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
           <characteristics>
