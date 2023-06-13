@@ -896,7 +896,7 @@
     <selectionEntry id="c8c3-5811-b547-3bf8" name="Abductor Pair of Talons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c7-7865-5338-b2ae" type="max"/>
-        <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9541-8237-ca69-1f78" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9541-8237-ca69-1f78" type="min"/>
       </constraints>
       <profiles>
         <profile id="8dbc-ba57-31b5-84c9" name="Abductor Pair of Talons" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Weapon">
@@ -917,7 +917,7 @@
     <selectionEntry id="9688-4c17-4679-0f68" name="Pair of Mantis Claws" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a2d-a144-3dff-eae7" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b8b-f636-d735-601a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b8b-f636-d735-601a" type="max"/>
       </constraints>
       <profiles>
         <profile id="db57-8f8b-182c-fb5d" name="Abductor Pair of Mantis Claws" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Weapon">
