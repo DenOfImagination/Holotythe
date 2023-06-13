@@ -24,13 +24,13 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="a183-951c-b318-8611" name="Żelazna Dyscyplina" hidden="false">
-              <description>Rozkazy wydawane Reptilianom mogą być przerzucone, a 1 oznacza darmowy rozkaz</description>
-            </rule>
-            <rule id="1bd7-c539-642e-c9b2" name="Wyczuleni" hidden="false">
-              <description>Mogą otrzymywać rozkazy będąc w odległości do 40 cm od Generała</description>
+            <rule id="1bd7-c539-642e-c9b2" name="Hive Runner Special" hidden="false">
+              <description>Additional info about the rule above</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink id="04fe-e924-f1be-ad74" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="false"/>
+          </categoryLinks>
           <entryLinks>
             <entryLink id="f37c-a1c8-3f57-48c6" name="Runner Pair of Claws" hidden="false" collective="false" import="true" targetId="e6c8-41cc-b9c2-0f75" type="selectionEntry">
               <costs>
@@ -69,8 +69,8 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="f194-67b9-c65e-6006" name="Wola Walki " hidden="false">
-              <description>Jeśli oddział Repsolian zniszczył oddział wroga, może wykonać ruch do 10 cm zamiast do 5 cm</description>
+            <rule id="f194-67b9-c65e-6006" name="Special Rule Abductor" hidden="false">
+              <description>Here&apos;s a test of an additional rule regarding a unit</description>
             </rule>
           </rules>
           <entryLinks>
@@ -117,14 +117,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="e5be-8ae3-caee-595f" name="Gadzi Ruch" hidden="false">
-              <description>Slagory mogą wykonać ruch lub szarżę przez jednostki wroga lub swoje, jeśli ich ruch zakończy się poza oddziałem, przez który przechodziły</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="d6ab-3e54-468a-6bda" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
-          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="9deb-a495-842b-4d4e" name="Oddziały Specjalne" hidden="false" targetId="70ac-247a-953d-1088" primary="false"/>
+          </categoryLinks>
           <entryLinks>
             <entryLink id="c65e-e8f1-57cc-8a35" name="Raming Head" hidden="false" collective="false" import="true" targetId="aa9d-cd2c-4424-f60a" type="selectionEntry"/>
             <entryLink id="9067-72e1-6fd1-fd4a" name="Ultrafex Pair of Claws" hidden="false" collective="false" import="true" targetId="a422-e40b-5cef-2b01" type="selectionEntry">
@@ -161,17 +156,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="4f1e-a6ff-e8ba-4a03" name="Pierwotny Szał " hidden="false">
-          <description>Podczas szarży Desauros musi wyko nać test k6, żeby sprawdzić, czy wpadnie w szał. Wynik 2 lub mniej oznacza, że Desauros zyskuje +3 Ataki</description>
-        </rule>
-        <rule id="fea6-ffa8-fa18-c52d" name="Grobowy Ołtarz " hidden="false">
-          <description>Za każdą ranę zadaną przeciwnikowi w wyniku ataku Desaurosa z Grobowym Ołtarzem, Desauros zyskuje 1 punkt W. Desauros może posiadać max. 12 punktów W</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="af28-595d-9265-a540" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="d1be-6786-dbe2-c7fd" name="New CategoryLink" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
@@ -201,12 +185,12 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="5793-94a7-da67-beeb" name="Żywa Katapulta" hidden="false">
-          <description>Raz na cykl Forgon może wykonać splunięcie do niezaangażowanego w walkę wroga na odległość 20 cm. Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że wrogi oddział musi wykonać Test Paniki dla 3 podstawek</description>
+        <rule id="5793-94a7-da67-beeb" name="great Invader specs" hidden="false">
+          <description>Additional infor about Hive Great Invader</description>
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="3c46-9c3b-1756-4742" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="da79-7352-ef5d-24c9" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0edf-2d40-a9db-9e86" name="Invader Pair of Talons" hidden="false" collective="false" import="true" targetId="2687-6ab7-272b-5381" type="selectionEntry"/>
