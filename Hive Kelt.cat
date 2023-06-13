@@ -117,7 +117,7 @@
         <entryLink id="4d79-cf62-c948-584a" name="Raming Head" hidden="false" collective="false" import="true" targetId="aa9d-cd2c-4424-f60a" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3af6-e7a9-f29d-e67a" name=" Sky Invader" hidden="false" collective="false" import="true" type="model">
