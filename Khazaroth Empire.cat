@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Khazaroth Empire" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>
-©2023 </readme>
+<catalogue id="9048-dbed-3705-7a59" name="Khazaroth Empire" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.denofimagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Prospectors" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -26,14 +25,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="fd46-12de-dea3-48c4" name="Impet" hidden="false">
-              <description>Oddział podczas szarży posiada cechę A większą o 1</description>
-            </rule>
-            <rule id="1951-9a10-ec5d-a9b5" name="Instynkt Łowcy" hidden="false">
-              <description>Podczas walki z modelami pojedynczymi lub oddziałami z zasadą Kreatura nie odejmują kostek wynikających z różnicy między Siłą a Twardością</description>
-            </rule>
-          </rules>
           <entryLinks>
             <entryLink id="87d2-7b25-8fd4-d994" name="Seismic Crusher Pistol" hidden="false" collective="false" import="true" targetId="9c68-5ff6-a74d-2775" type="selectionEntry"/>
             <entryLink id="317f-f59d-80d3-1662" name="Seismic Crusher Rifle" hidden="false" collective="false" import="true" targetId="a70b-3fd9-e3ea-58b9" type="selectionEntry">
@@ -161,8 +152,11 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="a01d-8827-7259-f021" name="Miażdżący Cios" hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
+            <infoLink id="a01d-8827-7259-f021" name="Void Blessing" hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3643-b6dc-6760-471b" name="Oddziały Specjalne" hidden="false" targetId="70ac-247a-953d-1088" primary="false"/>
+          </categoryLinks>
           <entryLinks>
             <entryLink id="c6aa-9c92-f7e1-b77e" name="Dig Power Gloves" hidden="false" collective="false" import="true" targetId="a9c4-c4c8-80cc-ce6d" type="selectionEntry">
               <costs>
@@ -212,10 +206,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="3214-64ce-e467-534c" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
-            <infoLink id="c742-bf03-9767-4c5c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
-          </infoLinks>
           <entryLinks>
             <entryLink id="e833-a2f2-66fc-cb3e" name="Rock Drill Claws" hidden="false" collective="false" import="true" targetId="8136-3281-2e36-ddcb" type="selectionEntry">
               <costs>
@@ -264,9 +254,11 @@
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="9923-e37c-cbd8-4b0c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
-          </infoLinks>
+          <rules>
+            <rule id="b210-c8c1-dba0-68af" name="Transportation Unit" hidden="false">
+              <description>Can transport up to 10 units</description>
+            </rule>
+          </rules>
           <entryLinks>
             <entryLink id="2f66-8d1f-0c2e-120b" name="Atomic Piercer" hidden="false" collective="false" import="true" targetId="2b6c-3c72-319c-9ae3" type="selectionEntry">
               <costs>
@@ -318,18 +310,9 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="6f5e-1285-4d64-1e79" name="Ryk" hidden="false">
-          <description>Raz w swojej turze Marmydon może wykonać rzut k6. Wynik 2 lub mniej oznacza, że każda wroga jednostka w promieniu 20 cm musi wykonać Test Paniki (4+) dla dwóch podstawek
-</description>
-        </rule>
-        <rule id="b10f-a2a0-f7cd-46a6" name="Gruba Skóra" hidden="false">
-          <description>Za każdą ranę zadaną temu modelowi można wykonać rzut na obronę Grubą Skórą. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
-        </rule>
-        <rule id="023d-ba9d-51e8-15de" name="Upadek molocha" hidden="false">
-          <description>Jeśli Marmydon straci ostatni punkt W, każdy oddział lub model pojedynczy, który dotyka jego podstawki, musi wykonać rzut 2k6. Wynik niższy niż LD oznacza, że otrzymuje k6+2 rany bez możliwości rzutu za pancerz lub obronę</description>
-        </rule>
-      </rules>
+      <categoryLinks>
+        <categoryLink id="8dba-c5fe-6ee1-2a0a" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="d04f-fd32-3c0b-62f6" name="Atomic Piercer" hidden="false" collective="false" import="true" targetId="2b6c-3c72-319c-9ae3" type="selectionEntry">
           <costs>
@@ -387,9 +370,12 @@
  </description>
         </rule>
         <rule id="2fac-8f76-9e88-67ff" name="Grand Command" hidden="false">
-          <description>Grand Command: At the start of the game, choose an objective marker. If any unit moves within range towards it to capture it for the first time and they need an extra 1&quot;-3&quot; to capture it. You may move up to 3&quot; to seize it</description>
+          <description> While activated, Lord Excavator can grant a single action point to one friendly unit within 12&quot;. Target only units that haven&apos;t been activated this turn and the point can only be used for using a weapon.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="4555-5705-7c1f-8698" name="New CategoryLink" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="d70b-0028-9c3c-bae6" name="Rock Cutter Power Blade" hidden="false" collective="false" import="true" targetId="049b-0974-02f7-3360" type="selectionEntry">
           <costs>
@@ -406,26 +392,15 @@
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="96.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7fdf-6155-55d8-ff4d" name="Lord Excavator/toremove" hidden="false" collective="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink id="dfaa-ab4d-0124-12bb" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="a632-9375-adc3-1269" name="Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
-      </costs>
-    </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="4347-ef14-de7b-3504" name="Gniew Kniei " hidden="false">
-      <description>W armii Gaeldor oddziały (ale nie modele pojedyncze) mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 4 </description>
+    <rule id="4347-ef14-de7b-3504" name="Khazaroth Bonus" hidden="false">
+      <description>Bonus rule for Kazaroth Empire</description>
     </rule>
   </rules>
   <sharedRules>
-    <rule id="2260-b0ac-2aa6-bbbc" name="Zdrewnienie" hidden="false">
-      <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
+    <rule id="2260-b0ac-2aa6-bbbc" name="DrunkDwarfRule" hidden="false">
+      <description>For each dice roll you take a shot of vodka</description>
     </rule>
   </sharedRules>
 </catalogue>

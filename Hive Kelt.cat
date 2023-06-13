@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8110-2ed0-8275-a6b7" name="Hive Kelt" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>
-    
-    ©2023</readme>
+<catalogue id="8110-2ed0-8275-a6b7" name="Hive Kelt" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.denofimagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="b1fb-a411-1a6d-1ac6" name="Hive Runner" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -50,6 +48,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4288-dcbe-3cea-04d3" name=" Abductor" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="dec1-a895-3677-b7c9" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5783-8429-5a7c-def8" name=" Abductor" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -157,7 +158,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="d1be-6786-dbe2-c7fd" name="New CategoryLink" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+        <categoryLink id="ea09-3727-e5b8-d52f" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7031-08de-9531-4506" name="Invader Pair of Chitin Swords" hidden="false" collective="false" import="true" targetId="8d37-a636-b814-a2f7" type="selectionEntry"/>
@@ -205,8 +206,8 @@
     </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="1aeb-564a-03e4-60aa" name="Zwiastujący Udrękę " hidden="false">
-      <description>Generał Sorgax otrzymuje możliwość wydania jednego dodatkowego darmowego rozkazu w cyklu, jeśli przeciwnik poniósł podczas bitwy określone straty. Sprawdź, ile przeciwnik stracił dotychczas Punktów Krwi i porównaj z tabelą, by dowiedzieć się, jaki musisz uzyskać wynik, aby rozkaz był udany. 6PK 1-, 12PK 2-, 24PK 3-</description>
+    <rule id="1aeb-564a-03e4-60aa" name="Bonus Rule" hidden="false">
+      <description>Bonus Rule for Hive Kelth</description>
     </rule>
   </rules>
 </catalogue>
