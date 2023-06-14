@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Outcasts and Renegades" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.DenOfImagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Test na produkcji</readme>
+<catalogue id="4f19-b00c-17bc-3958" name="Outcasts and Renegades" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.DenOfImagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Ogre" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -51,7 +51,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f944-c5fc-31a2-2c1e" name="Marouders" hidden="false" collective="false" import="true" type="unit">
@@ -98,7 +98,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a40c-f036-dfdb-5737" name="Devastation Team" hidden="false" collective="false" import="true" type="unit">
@@ -135,7 +135,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd25-8770-fd6c-f643" name="Reaper Squad" hidden="false" collective="false" import="true" type="model">
@@ -172,18 +172,7 @@
   </selectionEntries>
   <rules>
     <rule id="32fa-eb8d-1d13-5966" name="Wygnana Rasa Orkuf" hidden="false">
-      <description>Podczas grania tymi skurczybykami wolno Ci przeklinać.</description>
+      <description>Podczas grania tymi skurczybykami wolno Ci przeklinać. [root rule for OaR]</description>
     </rule>
   </rules>
-  <sharedRules>
-    <rule id="5d77-9886-81ff-ad84" name="Rozlew Krwi" hidden="false">
-      <description>Oddział może wykonać przerzut wszystkich nieudanych rzutów podczas Testu Ranienia</description>
-    </rule>
-    <rule id="b951-e170-9c36-9787" name="Furia" hidden="false">
-      <description>Podczas szarży oddział otrzymuje 2 dodatkowe ataki do puli</description>
-    </rule>
-    <rule id="9070-3277-af8a-e4fa" name="Obrona Lekką Tarczą " hidden="false">
-      <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę lekką tarczą. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
-    </rule>
-  </sharedRules>
 </catalogue>

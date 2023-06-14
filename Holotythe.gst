@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Holotythe v0.5.3" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.denofimagination.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Holotythe v0.5.3" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.denofimagination.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <publications>
     <publication id="5aa0-3e2a-18ff-c868" name="Holotythe Rulebook" shortName="Rulebook" publisher="Holotythe Wargame Rulebook" publicationDate="2023" publisherUrl="https://www.denofimagination.com"/>
@@ -174,7 +174,7 @@
   </forceEntries>
   <rules>
     <rule id="992e-2ea6-fee8-41a6" name="ToBeRemoved" hidden="false">
-      <description>Description of what should be removed</description>
+      <description>Description of what should be removed [root rule]</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -1996,9 +1996,6 @@
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08bd-3bca-f98c-96d5" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="dd2d-f537-9dfc-c94b" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="false"/>
-      </categoryLinks>
       <entryLinks>
         <entryLink id="1d8d-4acb-ae5f-edec" name="Błogosławiony Sztandar" hidden="false" collective="false" import="true" targetId="8136-3281-2e36-ddcb" type="selectionEntry">
           <categoryLinks>
@@ -2007,9 +2004,9 @@
         </entryLink>
         <entryLink id="b54b-f767-8d83-ca99" name="Sztandar Rozwagi" hidden="false" collective="false" import="true" targetId="044e-829c-85e4-d1c9" type="selectionEntry"/>
         <entryLink id="4922-73a8-b88d-8c53" name="Sztandar Odwagi" hidden="false" collective="false" import="true" targetId="a70b-3fd9-e3ea-58b9" type="selectionEntry"/>
-        <entryLink id="1e96-a9b2-6c90-ed0a" name="Sztandar Chwały" hidden="false" collective="false" import="true" targetId="2835-5e5f-7e6a-7956" type="selectionEntry"/>
+        <entryLink id="1e96-a9b2-6c90-ed0a" name="Very Big MotherFreaking Seismic Gun" hidden="false" collective="false" import="true" targetId="2835-5e5f-7e6a-7956" type="selectionEntry"/>
         <entryLink id="24a5-3213-b49b-8b97" name="Sztandar Bitewny" hidden="false" collective="false" import="true" targetId="a9fa-1ad9-a3b9-72e7" type="selectionEntry"/>
-        <entryLink id="bcfe-1165-e3f6-d3f6" name="Sztandar Zniszczenia" hidden="false" collective="false" import="true" targetId="2b6c-3c72-319c-9ae3" type="selectionEntry"/>
+        <entryLink id="bcfe-1165-e3f6-d3f6" name="Atomic Piercer" hidden="false" collective="false" import="true" targetId="2b6c-3c72-319c-9ae3" type="selectionEntry"/>
         <entryLink id="b55d-3c83-dcc0-788c" name="Sztandar Uporu" hidden="false" collective="false" import="true" targetId="3daa-3a83-6e50-fa4e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>

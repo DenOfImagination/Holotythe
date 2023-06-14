@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42fc-7ea3-31ea-a52a" name="Void Blessed" revision="1" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
-
-©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+<catalogue id="42fc-7ea3-31ea-a52a" name="Void Blessed" revision="2" battleScribeVersion="2.03" authorName="Anzelmo von DirtZ" authorContact="misiek.doi@gmail.com" authorUrl="www.DenOfImagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="323d-337d-8b95-46f2" name="New Sons" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -42,7 +40,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8c9-bec0-176d-e0a2" name="Forsaken" hidden="false" collective="false" import="true" type="unit">
@@ -70,7 +68,7 @@
         <categoryLink id="d9d2-9d38-be12-e239" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db42-4886-670d-1baa" name="Rage Sons" hidden="false" collective="false" import="true" type="unit">
@@ -92,10 +90,10 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="059e-9c62-d6cd-661b" name="New CategoryLink" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+        <categoryLink id="51fe-d7a7-bde9-8694" name="New CategoryLink" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91a9-41ec-a199-b53a" name="Perfection" hidden="false" collective="false" import="true" type="model">
@@ -182,7 +180,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fbbd-718a-2160-1777" name="Infernal Stalker" hidden="false" collective="false" import="true" type="model">
@@ -213,7 +211,7 @@
   </selectionEntries>
   <rules>
     <rule id="c385-a835-8682-c266" name="Zasada Dla Blessed Voida" hidden="false">
-      <description>Oddziały Podstawowe i Elitarne maja ładne oczy</description>
+      <description>Oddziały Podstawowe i Elitarne maja ładne oczy [root rule for Void Blessed]</description>
     </rule>
   </rules>
   <sharedRules>
