@@ -1,95 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Xantheons" revision="3" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>
-    ©2023 </readme>
+<catalogue id="18a4-315e-9b1d-bd2a" name="Xantheons" revision="5" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com" authorUrl="www.denofimagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="1846-02e4-d7ed-4645" name="Xantheon Defence Drone" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="099c-a108-5552-ddb6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ad-cb22-39c0-061e" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="5e60-1476-fac5-7aab" name="Xantheon Defence Drone" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">21</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
-        <categoryLink id="c6dd-45f2-a10c-b51a" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+        <categoryLink id="eb21-15bd-bfd5-7bf5" name="New CategoryLink" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="433f-6f00-d56d-ae1d" name="Xantheon Defence Drone" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21c-e810-7fbe-fd84" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8f-0f64-d22f-0318" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9439-4ec7-24b3-7fcb" name="Xantheon Defence Drone" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">21</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="0db7-9b5b-4db7-e42a" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink id="6116-34ad-e6b8-0cc3" name="Holotythe Zap" hidden="false" collective="false" import="true" targetId="91cb-1c9a-9ff5-c74d" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+      <entryLinks>
+        <entryLink id="b74e-ef8e-0d2c-d379" name="Holotythe Zap" hidden="false" collective="false" import="true" targetId="91cb-1c9a-9ff5-c74d" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d471-4770-cc77-ac22" name="Xantheon Dropship" hidden="false" collective="false" import="true" type="unit">
-      <selectionEntries>
-        <selectionEntry id="e4e2-8899-6777-8b4f" name="Xantheon Dropship" hidden="false" collective="false" import="true" type="unit">
-          <selectionEntries>
-            <selectionEntry id="45a7-cda0-cde6-e304" name=" Xantheon Dropship" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e2-9b9a-9133-89e6" type="min"/>
-                <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c9-b3fd-7dde-30f4" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="deb8-a9fd-d057-1327" name=" Xantheon Dropship" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-                  <characteristics>
-                    <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
-                    <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">8</characteristic>
-                    <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
-                    <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
-                    <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
-                    <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                    <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="4b6b-52e4-d916-12ee" name="Test rule4" hidden="false" targetId="f593-c25f-aa8a-bbc8" type="rule"/>
-                <infoLink id="d503-1884-2a12-2306" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="84de-945b-7e31-8072" name="Twin Holotythe Blaster" hidden="false" collective="false" import="true" targetId="7740-051f-da38-8c49" type="selectionEntry">
-                  <costs>
-                    <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+      <constraints>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c225-921e-e302-8e2d" type="max"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c0-89ec-e87b-c904" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="a970-d0e5-5879-2602" name=" Xantheon Dropship" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">8</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4be3-acca-2def-546e" name="Test rule4" hidden="false" targetId="f593-c25f-aa8a-bbc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3b65-0d05-f44f-67ef" name="New CategoryLink" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
+        <categoryLink id="d9d2-30d2-32ea-e554" name="Specialist" hidden="false" targetId="70ac-247a-953d-1088" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5a2e-b188-c274-522b" name="Twin Holotythe Blaster" hidden="false" collective="false" import="true" targetId="7740-051f-da38-8c49" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac50-6be2-ff6f-6389" name="Xantheon Tank" hidden="false" collective="false" import="true" type="model">
@@ -106,11 +84,8 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="de5d-3a10-1092-db63" name="Fearless" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
-      </infoLinks>
       <categoryLinks>
-        <categoryLink id="497e-d05d-22df-3dd0" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+        <categoryLink id="e518-0b3e-4623-41ef" name="New CategoryLink" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c74f-f2b5-4590-0550" name="Holotythe Cannon" hidden="false" collective="false" import="true" targetId="178c-da8a-a1a6-6325" type="selectionEntry">
@@ -129,41 +104,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4e67-6f8c-2652-1c58" name="Xantheon Light Seer" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2202-3f26-1d7b-9032" type="max"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22d-5d6d-972d-db28" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="b295-9172-3833-5094" name="Xantheon Light Seer" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">9</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
-        <categoryLink id="0205-53ed-5b9f-cbf2" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+        <categoryLink id="6645-07ef-8c0e-a2c8" name="New CategoryLink" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7663-2820-a0e1-2bda" name="Xantheon Light Seer" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="name" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e43-5231-8589-b047" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c9-3101-e4af-6261" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="27a3-a32f-6501-b828" name="Xantheon Light Seer" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">9</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="f84a-8c2b-ab82-8a41" name="Voidmancy" hidden="false" targetId="5c21-fd42-df0f-4653" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="20.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08cc-8166-1dae-3665" name=" Xantheon Sentry" hidden="false" collective="false" import="true" type="model">
@@ -180,6 +142,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="f071-846f-3532-aa09" name="New CategoryLink" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="1900-ed31-2ea3-f1aa" name="Leg Blades" hidden="false" collective="false" import="true" targetId="18dd-60a0-0d95-5dd3" type="selectionEntry">
           <costs>
@@ -197,71 +162,64 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="05f0-2016-9e96-73a6" name="Xantheon Brother" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d8-9364-4709-3ee2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ae-5307-f7fb-8759" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="a617-201b-1ae1-c634" name="Xantheon Brother" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">9</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">5</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1+</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3b02-bda3-5eb0-411d" name="Fathers Acknowledgment" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4d56-10e5-3174-ffcc" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="fce0-f0d7-4f3f-c061" name="Xantheon Brother" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca06-ad0c-cec1-5a53" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6238-fee5-03fa-0385" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="153e-efd1-b55f-29e2" name="Xantheon Brother" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">9</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">5</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1+</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="f192-2351-72ee-72c8" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink id="c578-e549-9b7c-d74c" name="Holotythe Dagger" hidden="false" collective="false" import="true" targetId="492a-1916-e477-02e9" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="9fcd-110d-ab97-adc8" name="Holotythe Blade" hidden="false" collective="false" import="true" targetId="6509-eb35-2315-6bc9" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="60fe-fee5-d5ac-5e88" name="Holotythe Hammer" hidden="false" collective="false" import="true" targetId="08ef-98c6-3568-47ba" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="0be4-3793-4a30-ed0a" name="Holotythe Spear" hidden="false" collective="false" import="true" targetId="f1cd-ea55-309c-6794" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="b3fd-fbfd-0ea1-d11e" name="Holotythe Blaster" hidden="false" collective="false" import="true" targetId="09f1-65ac-09fb-9bd3" type="selectionEntry"/>
-            <entryLink id="01c5-bd88-9a01-c0c3" name="Holotythe Heavy Blaster" hidden="false" collective="false" import="true" targetId="9499-4ec8-df07-e4f5" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+      <entryLinks>
+        <entryLink id="84e1-8ad1-d04f-850b" name="Holotythe Spear" hidden="false" collective="false" import="true" targetId="f1cd-ea55-309c-6794" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+        <entryLink id="5bcb-ca23-eefc-43aa" name="Holotythe Heavy Blaster" hidden="false" collective="false" import="true" targetId="9499-4ec8-df07-e4f5" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="cd77-df8d-c5b7-da07" name="Holotythe Hammer" hidden="false" collective="false" import="true" targetId="08ef-98c6-3568-47ba" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="78f7-5ea2-cf85-1769" name="Holotythe Dagger" hidden="false" collective="false" import="true" targetId="492a-1916-e477-02e9" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="df5f-81dc-a0e3-3fca" name="Holotythe Blaster" hidden="false" collective="false" import="true" targetId="09f1-65ac-09fb-9bd3" type="selectionEntry"/>
+        <entryLink id="d77b-28c4-3eda-5e64" name="Holotythe Blade" hidden="false" collective="false" import="true" targetId="6509-eb35-2315-6bc9" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="601c-a52e-ac02-0c0d" name="Root RUle For Xantheons" hidden="false">
+    <rule id="601c-a52e-ac02-0c0d" name="Root Rule For Xantheons" hidden="false">
       <description>Xantheoni są super i mogą używać Holotytu.</description>
     </rule>
   </rules>
