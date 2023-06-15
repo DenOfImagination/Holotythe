@@ -98,7 +98,7 @@
     </selectionEntry>
     <selectionEntry id="91a9-41ec-a199-b53a" name="Perfection" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="82d8-5c9e-16fe-ef5f" name="Perfection" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+        <profile id="82d8-5c9e-16fe-ef5f" name="Perfect Son" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
           <characteristics>
             <characteristic name="M" typeId="93fa-4500-7c4e-a44c">24</characteristic>
             <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
@@ -114,7 +114,7 @@
         <infoLink id="7c6b-1354-8aca-bd84" name="Fearless" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6ae7-d936-779c-3ce8" name="Machinery/Beast" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
+        <categoryLink id="1a06-ed7b-28c5-aaad" name="Elite" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f672-9634-c3e7-a7b5" name="Wrist Mounted Assault Rifle" hidden="false" collective="false" import="true" targetId="38c4-e476-9f55-4ef5" type="selectionEntry"/>

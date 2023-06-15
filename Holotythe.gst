@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Holotythe v0.5.3" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.denofimagination.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
+<gameSystem id="bed4-986d-3f21-8152" name="Holotythe v0.5" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.denofimagination.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a work in progress.</readme>
   <publications>
     <publication id="5aa0-3e2a-18ff-c868" name="Holotythe Rulebook" shortName="Rulebook" publisher="Holotythe Wargame Rulebook" publicationDate="2023" publisherUrl="https://www.denofimagination.com"/>
   </publications>
@@ -93,7 +93,7 @@
     <forceEntry id="8ea3-2427-f146-78c9" name="Holotythe" hidden="false">
       <comment>Game developed to beat all the others :) </comment>
       <categoryLinks>
-        <categoryLink id="3f4a-8d25-c5e4-ddcb" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="false">
+        <categoryLink id="3f4a-8d25-c5e4-ddcb" name="Elite" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="false">
           <modifiers>
             <modifier type="set" field="6b4d-bdff-1032-81e7" value="99.0">
               <conditions>
@@ -117,7 +117,7 @@
             <constraint field="selections" scope="force" value="99.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3683-0d5d-534d-8e6d" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="619e-52d4-1202-1dd8" name="Command Group" hidden="false" targetId="970f-1486-f74e-91e9" primary="false">
+        <categoryLink id="619e-52d4-1202-1dd8" name="Machinery/Beast" hidden="false" targetId="970f-1486-f74e-91e9" primary="false">
           <modifiers>
             <modifier type="set" field="35bb-b377-e7b2-bb40" value="2.0">
               <conditions>
@@ -173,8 +173,8 @@
     </forceEntry>
   </forceEntries>
   <rules>
-    <rule id="992e-2ea6-fee8-41a6" name="ToBeRemoved" hidden="false">
-      <description>Description of what should be removed [root rule]</description>
+    <rule id="992e-2ea6-fee8-41a6" name="Be kind to other players" hidden="false">
+      <description>This is an absolute must. Be kind, or die. Description of what should be removed [root rule]</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -444,23 +444,6 @@
       </profiles>
       <costs>
         <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="28c1-e605-902c-77a4" name="(PW2) Kajdany Bólu" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f876-82f3-1c43-ec6f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbe-be36-c42e-316d" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="76fb-23f4-a856-77f5" name="Kajdany Bólu" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Spells">
-          <characteristics>
-            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz dowolny wrogi model pojedynczy w promieniu 30 cm. Rzuć k6 – wynik 3 lub mniej oznacza udany czar. Model musi natychmiast wykonać test k6 za każdy posiadany punkt W. Wynik 5 lub 6 oznacza, że traci 1 punkt W</characteristic>
-            <characteristic name="Test" typeId="73d8-877b-79f6-209e">3-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9c4-c4c8-80cc-ce6d" name="Dig Power Gloves" hidden="false" collective="false" import="true" type="upgrade">
@@ -1979,7 +1962,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="75d2-7540-394c-3480" name="(PW2) Sztandary" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="75d2-7540-394c-3480" name="RemoveLater" hidden="true" collective="false" import="true">
       <comment>to be removed</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -2040,17 +2023,12 @@
             <categoryLink id="30a9-13e1-1500-5579" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="c3c4-f82b-150d-ed47" name="(PW2) Kajdany Bólu" hidden="false" collective="false" import="true" targetId="28c1-e605-902c-77a4" type="selectionEntry">
-          <categoryLinks>
-            <categoryLink id="4ad7-f461-04d6-2d10" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
-          </categoryLinks>
-        </entryLink>
         <entryLink id="8d7c-7246-baaa-6b55" name="Zemsta" hidden="false" collective="false" import="true" targetId="8d72-1193-f5ae-9a36" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="7cc2-c959-037e-3331" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="4cfd-80e5-659e-6b1f" name="Piorun" hidden="false" collective="false" import="true" targetId="f7ee-80e1-4daa-2830" type="selectionEntry">
+        <entryLink id="4cfd-80e5-659e-6b1f" name="(PW2) Spell1" hidden="false" collective="false" import="true" targetId="f7ee-80e1-4daa-2830" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="065e-9e39-e8ea-3b8a" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
           </categoryLinks>

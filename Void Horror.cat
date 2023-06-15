@@ -2,9 +2,6 @@
 <catalogue id="52a7-61d2-c8e9-2f28" name="Void Horror" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>
 ©2023</readme>
-  <publications>
-    <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
-  </publications>
   <selectionEntries>
     <selectionEntry id="90c9-c990-4396-8c48" name="Void Stomper" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -194,7 +191,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e4ae-5e71-9701-186f" name="New CategoryLink" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+        <categoryLink id="4378-630f-1b26-eef3" name="New CategoryLink" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a5d2-bcdf-10a9-1c9c" name="Phaze Scythe" hidden="false" collective="false" import="true" targetId="8468-c9fc-d175-4637" type="selectionEntry"/>
@@ -274,7 +271,7 @@
         <infoLink id="8468-3dea-33a7-05e4" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="39a4-47de-00d0-182f" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+        <categoryLink id="ef38-f180-2b97-ce7a" name="New CategoryLink" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="aebe-ec8f-9e5b-d731" name="Phaze Sickle" hidden="false" collective="false" import="true" targetId="7bf9-0961-2044-42c3" type="selectionEntry">

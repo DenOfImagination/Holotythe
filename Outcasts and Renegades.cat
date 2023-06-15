@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="4f19-b00c-17bc-3958" name="Outcasts and Renegades" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.DenOfImagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Ogre" hidden="false" collective="false" import="true" type="unit">
       <constraints>
