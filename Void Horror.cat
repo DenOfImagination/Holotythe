@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Void Horror" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>
-©2023</readme>
+<catalogue id="52a7-61d2-c8e9-2f28" name="Void Horror" revision="3" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com" authorUrl="www.denofimagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Holotythe wargame system developed for Den of Imagination ©2023. Still a trial version and work in progress.</readme>
   <selectionEntries>
     <selectionEntry id="90c9-c990-4396-8c48" name="Void Stomper" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -78,98 +77,78 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="10bc-ab86-1c2c-d78c" name="Void Watcher" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e7d-82f9-90fa-a350" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be65-402e-daf7-1c5e" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b632-40e8-fc5c-6baa" name="Fear" hidden="false" targetId="b756-0f19-9c03-7378" type="rule"/>
+        <infoLink id="d7b3-240a-90b7-d9c0" name="Fearless" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="92ae-ccc6-31f1-a682" name="New CategoryLink" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3ee6-74eb-fe9a-3345" name="Void Watcher" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="383b-cdcd-d664-218c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ea-3f43-d247-932d" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="862b-00b9-34f5-1544" name="Void Watcher" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">8</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2775-9b50-9783-168b" name="Fear" hidden="false" targetId="b756-0f19-9c03-7378" type="rule"/>
-            <infoLink id="35f7-8717-3f13-6fff" name="Fearless" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink id="4656-4ba1-03c8-0476" name="Void Ray" hidden="false" collective="false" import="true" targetId="13a5-060a-f3d2-9e8d" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="7255-50a4-1667-4ff0" name="Massive Tentacle" hidden="false" collective="false" import="true" targetId="9875-a4b0-db53-103f" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="0db1-6e47-bc98-906f" name="Void Flame Barage" hidden="false" collective="false" import="true" targetId="2bd4-caff-8069-47ec" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="4.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
           <costs>
             <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="b99b-1d0a-f349-19b7" name="Massive Tentacles" hidden="false" collective="false" import="true" targetId="9875-a4b0-db53-103f" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4cdb-105a-367c-a7c8" name="Void Flame Barage" hidden="false" collective="false" import="true" targetId="2bd4-caff-8069-47ec" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="4.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4473-b358-1a8f-001f" name="Void Ray" hidden="false" collective="false" import="true" targetId="13a5-060a-f3d2-9e8d" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30f1-be2e-64ad-40c6" name="Void Titan" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3875-698d-6c5f-3a3c" type="min"/>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ea-b3f7-8e58-0c11" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8578-3793-abbd-3aad" name="Void Titan" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">10</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">0</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">5</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5541-74a1-daae-8fab" name="Clumsy and Goofy" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="77e2-81c8-4df0-c7c4" name="New CategoryLink" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7899-f11f-9702-2e93" name="Void Titan" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e24-64f2-ed87-e099" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2356-efa3-e240-6ab0" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="7823-330a-550f-e156" name="Void Titan" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">10</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">0</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">5</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="f675-bb2b-12bd-4b18" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink id="899b-5ffb-f334-ed4e" name="Giant feet" hidden="false" collective="false" import="true" targetId="7bf7-fccb-c386-3fd6" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+      <entryLinks>
+        <entryLink id="134b-0b30-e9b4-a3ea" name="Giant feet" hidden="false" collective="false" import="true" targetId="7bf7-fccb-c386-3fd6" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a1e-11ba-3a35-c908" name="Void Avatar" hidden="false" collective="false" import="true" type="unit">
@@ -201,45 +180,38 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a567-2fdb-b29e-39c0" name="Void Crawlers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470d-28dd-ad5c-c3fe" type="min"/>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="084d-12ad-d8f1-630f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="941d-db68-9a44-523b" name="Void Crawlers" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">10</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c4a5-15e0-5762-ed6b" name="Consume Holotythe" hidden="false">
+          <description>Consume Holotythe: When Void Brute kill a model with Holotythe restor as many wounds as the amount of Holotythe power that was slaine. This brings back dead Bruts to life.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="73a3-e6a9-4459-b508" name="Troops" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="10d9-e2e2-d430-00a8" name="Void Crawlers" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5a-ac98-517c-4c15" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3830-1229-3386-2f4d" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="be98-58e5-961b-4df4" name="Void Crawlers" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
-              <characteristics>
-                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">10</characteristic>
-                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
-                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
-                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
-                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
-                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
-                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="af93-b30e-1dcf-7fad" name="Consume Holotythe" hidden="false">
-              <description>Consume Holotythe: When Void Brute kill a model with Holotythe restor as many wounds as the amount of Holotythe power that was slaine. This brings back dead Bruts to life.</description>
-            </rule>
-          </rules>
-          <entryLinks>
-            <entryLink id="1544-2d83-f0f2-c4d7" name="Horror Claws" hidden="false" collective="false" import="true" targetId="c704-f242-5a9c-00ff" type="selectionEntry">
-              <costs>
-                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
+      <entryLinks>
+        <entryLink id="792a-03dc-1b56-ff16" name="Horror Claws" hidden="false" collective="false" import="true" targetId="c704-f242-5a9c-00ff" type="selectionEntry">
           <costs>
-            <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="23.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
       </costs>
@@ -262,13 +234,8 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="e45a-4e25-b856-385d" name="Potępieńcy" hidden="false">
-          <description>Po zniszczeniu oddział Potępieńców nie jest wliczany do straconych Punktów Krwi</description>
-        </rule>
-      </rules>
       <infoLinks>
-        <infoLink id="8468-3dea-33a7-05e4" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+        <infoLink id="8468-3dea-33a7-05e4" name="Fearless" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ef38-f180-2b97-ce7a" name="New CategoryLink" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
@@ -325,4 +292,9 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <rules>
+    <rule id="b577-f329-1472-4ebf" name="Void Horror Rule" hidden="false">
+      <description>Rule stating that Void Horror may scare you to death.</description>
+    </rule>
+  </rules>
 </catalogue>
